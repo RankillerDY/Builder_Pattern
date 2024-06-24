@@ -34,4 +34,15 @@ public class House {
     public int getDoors() {
         return doors;
     }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "walls=" + walls +
+                ", doors=" + doors +
+                ", hasPool=" + hasPool +
+                ", hasRoof=" + hasRoof +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

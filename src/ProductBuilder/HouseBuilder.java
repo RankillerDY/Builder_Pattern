@@ -13,31 +13,31 @@ public class HouseBuilder implements Builder {
     @Override
     public Builder buildRoof(boolean hasRoof) {
         this.hasRoof = hasRoof;
-        return null;
+        return this;
     }
 
     @Override
     public Builder buildPool(boolean hasPool) {
         this.hasPool = hasPool;
-        return null;
+        return this;
     }
 
     @Override
     public Builder buildWalls(int hasWall) {
         this.walls = hasWall;
-        return null;
+        return this;
     }
 
     @Override
     public Builder buildDoors(int hasDoors) {
         this.doors = hasDoors;
-        return null;
+        return this;
     }
 
     @Override
     public Builder buildColor(String color) {
         this.color = color;
-        return null;
+        return this;
     }
 
     @Override
