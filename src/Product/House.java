@@ -7,12 +7,12 @@ public class House {
     private boolean hasRoof;
     private String color;
 
-    public House(int walls, String color, boolean hasRoof, boolean hasPool, int doors) {
+    public House(int walls, int doors, boolean hasPool, String color, boolean hasRoof) {
         this.walls = walls;
+        this.doors = doors;
+        this.hasPool = hasPool;
         this.color = color;
         this.hasRoof = hasRoof;
-        this.hasPool = hasPool;
-        this.doors = doors;
     }
 
     public int getWalls() {
