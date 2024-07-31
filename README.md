@@ -26,7 +26,7 @@ Builder Pattern được sử dụng khi bạn muốn tạo các đối tượng
 
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/username/builder-design-pattern.git
+   git clone https://github.com/RankillerDY/builder-design-pattern.git
    cd builder-design-pattern
    ```
 
